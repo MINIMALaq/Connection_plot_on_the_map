@@ -3,3 +3,4 @@ geopandas==0.10.2
 geoplot==0.4.4
 geopy==2.2.0
 jupyter==1.0.0
+plotly==5.5.0

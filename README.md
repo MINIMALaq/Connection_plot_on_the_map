@@ -1,13 +1,16 @@
 # Sankey_plot_on_the_map
 Visualizing Sankey plot on a map with python.
 
-Basically used one of the D3 [connection map](https://www.d3-graph-gallery.com/graph/connectionmap_csv.html) to visulize the connections between points. <br>
+
+I downloaded one of the Origin Destination files from [here](https://mobilitylab.ut.ee/OD/) and made it ready to use woth 4326 projection. 
 
 
-I downloaded one of the Origin Destination files from [here](https://mobilitylab.ut.ee/OD/) and made it ready to use for D3 example. 
+<br>To see the plot with plotly you can run the code like this:<br>
+`pip install -r requirements.txt`
+`python geo_plotly.py`
 
-
-
+<br>
+<br>
 
 
 
