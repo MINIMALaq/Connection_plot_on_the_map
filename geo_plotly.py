@@ -5,7 +5,7 @@ import pandas as pd
 city = pd.read_csv('points.csv')
 city.head()
 
-od = pd.read_csv('od.csv',nrows = 2000)
+od = pd.read_csv('od.csv')
 od.head()
 
 fig = go.Figure()
@@ -23,7 +23,6 @@ lats[::3] = od['start_lat']
 lats[1::3] = od['end_lat']
 lats[2::3] = None
 
-print(len(lats))
 
 fig.add_trace(
     go.Scattergeo(
@@ -51,17 +50,18 @@ fig.add_trace(go.Scattergeo(
         )
     )))
 
-fig.update_layout(
-    title_text = 'March 2018 Estonia Origin Destination Matrice <br>',
-    showlegend = False,
-    geo = go.layout.Geo(
-        scope = 'europe',
-        # projection_type = 'van der grinten3',
-        showland = True,
-        landcolor = 'rgb(243, 243, 243)',
-        countrycolor = 'rgb(204, 204, 204)',
-    ),
-    height=700,
-)
+# fig.update_layout(
+#     title_text = 'March 2018 Estonia Origin Destination Matrice <br>',
+#     showlegend = False,
+#     geo = go.layout.Geo(
+#         scope = 'europe',
+#         # projection_type = 'van der grinten3',
+#         showland = True,
+#         landcolor = 'rgb(243, 243, 243)',
+#         countrycolor = 'rgb(204, 204, 204)',
+#     ),
+#     height=1200,
+#     width=1600,
+# )
 
 fig.show()
