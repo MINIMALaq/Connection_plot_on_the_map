@@ -16,4 +16,4 @@ You can run the code like this:<br>
 
 
 
-Note: I added `cartopy==0.19.0.post1` to the requirements.txt to avoid errors in installing `geoplot`. You can use other mehods which introdced [here](https://pythonissues.com/issues/2179634).
+Note: I added `cartopy==0.19.0.post1` to the requirements.txt to avoid errors in installing `geoplot`. You can use other mehods which introduced [here](https://pythonissues.com/issues/2179634).
