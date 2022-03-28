@@ -1,5 +1,4 @@
-# Sankey_plot_on_the_map
-Visualizing Sankey plot on a map with python.
+Visualizing origin destination data as an interactive plot on a map with python.
 
 
 I downloaded one of the Origin Destination files from [here](https://mobilitylab.ut.ee/OD/) and made it ready to use with 4326 CRS. 
